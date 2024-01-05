@@ -6,7 +6,10 @@ while True:
         print("커피를 줍니다.")
         coffee -= 1
     elif money > 300:
-        print("거스름돈 %d를 주고 커피를 줍니다." % (money - 300))
+        # print("거스름돈 %d를 주고 커피를 줍니다." % (money - 300))
+        # print("거스름돈 {0}를 주고 커피를 줍니다.".format(money - 300))
+        # print("거스름돈 {money}를 주고 커피를 줍니다.".format(money = money - 300))
+        print(f"거스름돈 {money - 300}를 주고 커피를 줍니다.")
         coffee -= 1
     else:
         print("돈을 다시 돌려주고 커피를 주지 않습니다.")
