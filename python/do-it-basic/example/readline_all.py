@@ -7,8 +7,12 @@
 #     print(line)
 # f.close()
 
+# f = open('./newfile.txt', 'r')
+# lines = f.readlines()
+# for line in lines:
+#     print(line)
+# f.close()
+
 f = open('./newfile.txt', 'r')
-lines = f.readlines()
-for line in lines:
-    print(line)
-f.close()
+line = f.read()
+print(line)
