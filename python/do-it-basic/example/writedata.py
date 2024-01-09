@@ -6,6 +6,7 @@ for i in range(1, 11):
     f.write(data)
 f.close()
 
+# Existing method
 # for i in range(1, 11):
 #     data = f"{i} 번째 줄입니다."
 #     print(data)
