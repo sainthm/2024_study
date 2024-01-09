@@ -7,6 +7,10 @@ class Calculator:
     def add(self, num):
         self.result += num
         return self.result
+    
+    def sub(self, num):
+        self.result -= num
+        return self.result
 
 cal1 = Calculator()
 cal2 = Calculator()
