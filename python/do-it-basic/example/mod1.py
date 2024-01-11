@@ -8,3 +8,7 @@ def sub(a, b):
 
 # print(add(3,4))
 # print(sub(8,2))
+
+if __name__ == "__main__":    
+    print(add(3,4))
+    print(sub(8,2))
