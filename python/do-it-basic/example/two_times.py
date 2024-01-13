@@ -13,3 +13,4 @@ def three_times(x):
     return x * 3
 
 print(list(map(three_times, [1, 2, 3, 4])))
+# print(map(three_times, [1, 2, 3, 4]))
