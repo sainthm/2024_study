@@ -1,6 +1,7 @@
 # thread_test.py
 
 import time
+import threading
 
 def long_task():
     for i in range(5):
@@ -9,7 +10,13 @@ def long_task():
 
 print("Start")
 
+threads = []
 for i in range(5):
-    long_task()
+    # long_task()
+    t = threading.Thread(target=long_task) # Make thread
+    threads.append(t)
+
+for t in threads:
+    t.start() # Start thread
 
 print("End")
