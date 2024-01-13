@@ -8,3 +8,11 @@ def positive(l):
     return result
 
 print(positive([1, -3, 2, 0, -5, 6]))
+
+####################
+# filter(name_of_function, replicable_data_type)
+####################
+def positive(x):
+    return x > 0
+
+print(list(filter(positive, [1, -3, 2, 0, -5, 6])))
