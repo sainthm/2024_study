@@ -19,4 +19,7 @@ for i in range(5):
 for t in threads:
     t.start() # Start thread
 
+for t in threads:
+    t.join() # Wait for the thread to end
+
 print("End")
