@@ -3,7 +3,14 @@
 import sys
 
 option = sys.argv[1]
-memo = sys.argv[2]
+# memo = sys.argv[2]
 
-print(option)
-print(memo)
+# print(option)
+# print(memo)
+
+if option == '-a':
+    memo = sys.argv[2]
+    f = open('memo.txt', 'a')
+    f.write(memo)
+    f.write('\n')
+    f.close
