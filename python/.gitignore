@@ -1,5 +1,7 @@
 # .gitignore
+# 
 
 newfile.*
 .DS_Store
 __pycache__
+memo.txt
