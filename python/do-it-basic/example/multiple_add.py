@@ -5,6 +5,9 @@
 #     print(n)
 #     n += 1
     
-
+result = 0
 for n in range(1, 1000):
-    print(n)
+    if n % 3 == 0 or n % 5 == 0:
+        # print(n)
+        result += n
+print(result)
