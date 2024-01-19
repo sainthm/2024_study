@@ -8,5 +8,6 @@
 *.backup
 state*
 
+*.dot
 tfplan
 *.txt
