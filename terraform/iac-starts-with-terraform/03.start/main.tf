@@ -11,18 +11,36 @@
 #   }
 # }
 
-resource "local_file" "abc" {
-  content  = "lifecycle - step 5"
-  filename = "${path.module}/abc.txt"
+variable "file_name" {
+  default = "step0.txt"
+}
+
+resource "local_file" "step6" {
+  content = "lifecycle - step 6"
+  filename = "${path.module}/${var.file_name}"
 
   lifecycle {
-    # create_before_destroy = true
-    # prevent_destroy = true
-    ignore_changes = [
-      content
-    ]
+    precondition {
+      condition = var.file_name == "step6.txt"
+      # error_message = "file name is not \"step6.txt\""
+      error_message = "file name is not \"step6.txt\""
+    }
   }
 }
+
+
+# resource "local_file" "abc" {
+#   content  = "lifecycle - step 5"
+#   filename = "${path.module}/abc.txt"
+
+#   lifecycle {
+#     # create_before_destroy = true
+#     # prevent_destroy = true
+#     ignore_changes = [
+#       content
+#     ]
+#   }
+# }
 
 # resource "local_file" "def" {
 #   depends_on = [
