@@ -1,4 +1,7 @@
 terraform {
+  backend "local" {
+    path = "state/terraform.rfstate"
+  }
   required_version = ">= 1.0.0"
   required_providers {
     local = {
@@ -9,7 +12,7 @@ terraform {
 }
 
 resource "local_file" "abc" {
-  content  = "abc!"
+  content  = "123456!"
   filename = "${path.module}/abc.txt"
 }
 
