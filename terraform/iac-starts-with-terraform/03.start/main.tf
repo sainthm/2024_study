@@ -17,8 +17,11 @@ resource "local_file" "abc" {
 }
 
 resource "local_file" "def" {
-  content  = local_file.abc.content
-  # content  = "456!"
+  depends_on = [
+    local_file.abc
+  ]
+  # content  = local_file.abc.content
+  content  = "456!"
   filename = "${path.module}/def.txt"
 }
 
