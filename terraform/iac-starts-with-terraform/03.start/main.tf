@@ -16,7 +16,7 @@ resource "local_file" "abc" {
   filename = "${path.module}/abc.txt"
 }
 
-# resource "local_file" "def" {
-#   content  = "def!"
-#   filename = "${path.module}/def.txt"
-# }
+resource "aws_instance" "web" {
+  ami           = "ami-02d081c743d676996"
+  instance_type = "t2.micro"
+}
