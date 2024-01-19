@@ -12,18 +12,26 @@
 # }
 
 resource "local_file" "abc" {
-  content  = "123!"
+  content  = "lifecycle - step 5"
   filename = "${path.module}/abc.txt"
+
+  lifecycle {
+    # create_before_destroy = true
+    # prevent_destroy = true
+    ignore_changes = [
+      content
+    ]
+  }
 }
 
-resource "local_file" "def" {
-  depends_on = [
-    local_file.abc
-  ]
-  # content  = local_file.abc.content
-  content  = "456!"
-  filename = "${path.module}/def.txt"
-}
+# resource "local_file" "def" {
+#   depends_on = [
+#     local_file.abc
+#   ]
+#   # content  = local_file.abc.content
+#   content  = "456!"
+#   filename = "${path.module}/def.txt"
+# }
 
 # resource "aws_instance" "web" {
 #   ami           = "ami-02d081c743d676996"
