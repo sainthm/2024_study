@@ -1,5 +1,7 @@
 # For terraform .gitignore
 
+.DS_Store
+
 *.pem
 .terraform*
 *.tfstate
