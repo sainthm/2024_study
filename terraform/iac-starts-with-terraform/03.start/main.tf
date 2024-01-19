@@ -1,10 +1,11 @@
 terraform {
   required_version = ">= 1.0.0"
   required_providers {
-    source  = "hashicorp/local"
-    version = ">= 10000.0.0"
+    local = {
+      source  = "hashicorp/local"
+      version = ">= 10000.0.0"
+    }
   }
-
 }
 
 resource "local_file" "abc" {
