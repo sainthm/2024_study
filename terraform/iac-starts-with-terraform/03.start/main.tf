@@ -11,22 +11,38 @@
 #   }
 # }
 
-variable "file_name" {
-  default = "step0.txt"
-}
-
-resource "local_file" "step6" {
-  content = "lifecycle - step 6"
-  filename = "${path.module}/${var.file_name}"
+resource "local_file" "step7" {
+  content = ""
+  filename = "${path.module}/step7.txt"
 
   lifecycle {
-    precondition {
-      condition = var.file_name == "step6.txt"
-      # error_message = "file name is not \"step6.txt\""
-      error_message = "file name is not \"step6.txt\""
+    postcondition {
+      condition = self.content != ""
+      error_message = "content cannot empty"
     }
   }
 }
+
+output "step7_content" {
+  value = local_file.step7.id
+}
+
+# variable "file_name" {
+#   default = "step0.txt"
+# }
+
+# resource "local_file" "step6" {
+#   content = "lifecycle - step 6"
+#   filename = "${path.module}/${var.file_name}"
+
+#   lifecycle {
+#     precondition {
+#       condition = var.file_name == "step6.txt"
+#       # error_message = "file name is not \"step6.txt\""
+#       error_message = "file name is not \"step6.txt\""
+#     }
+#   }
+# }
 
 
 # resource "local_file" "abc" {
