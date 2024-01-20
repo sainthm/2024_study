@@ -1,0 +1,13 @@
+# For terraform .gitignore
+
+.DS_Store
+
+*.pem
+.terraform*
+*.tfstate
+*.backup
+state*
+
+*.dot
+tfplan
+*.txt
