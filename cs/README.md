@@ -4,3 +4,8 @@
 
 - study-alone
 - start: 2024.01.20
+
+## Everyone's network
+
+- network-basic
+- start: 2024.01.21
