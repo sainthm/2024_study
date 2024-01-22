@@ -2,6 +2,11 @@
 
 - 2024 학습 내용 정리 저장소
 
+## cs
+
+- network-basic
+- study-alone
+
 ## Python
 
 - Class101
