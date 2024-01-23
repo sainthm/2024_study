@@ -5,7 +5,7 @@
 ## cs
 
 - network-basic
-- study-alone
+- self-learning-cs
 
 ## Python
 
