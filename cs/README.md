@@ -5,6 +5,7 @@
 - self-learning-cs
 - Reference: [github](https://github.com/kangtegong/self-learning-cs)
 - start: 2024.01.20
+- ongoing
 
 ## Network for everyone
 
