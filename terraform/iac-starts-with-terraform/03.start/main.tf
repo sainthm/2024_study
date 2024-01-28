@@ -1,3 +1,23 @@
+##################
+# data example
+##################
+
+resource "local_file" "abc" {
+  content = "123!"
+  filename = "${path.module}/abc.txt"
+}
+
+data "local_file" "abc" {
+  filename = local_file.abc.filename
+}
+
+resource "local_file" "def" {
+  content = data.local_file.abc.content
+  filename = "${path.module}/def.txt"
+}
+
+
+
 # terraform {
 #   backend "local" {
 #     path = "state/terraform.rfstate"
@@ -11,21 +31,21 @@
 #   }
 # }
 
-resource "local_file" "step7" {
-  content = ""
-  filename = "${path.module}/step7.txt"
+# resource "local_file" "step7" {
+#   content = ""
+#   filename = "${path.module}/step7.txt"
 
-  lifecycle {
-    postcondition {
-      condition = self.content != ""
-      error_message = "content cannot empty"
-    }
-  }
-}
+#   lifecycle {
+#     postcondition {
+#       condition = self.content != ""
+#       error_message = "content cannot empty"
+#     }
+#   }
+# }
 
-output "step7_content" {
-  value = local_file.step7.id
-}
+# output "step7_content" {
+#   value = local_file.step7.id
+# }
 
 # variable "file_name" {
 #   default = "step0.txt"
