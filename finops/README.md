@@ -1,3 +1,3 @@
 # FinOps
 
-- Docs
+- finops-org
