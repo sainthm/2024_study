@@ -11,4 +11,7 @@
 - FinOps Certified Practitioner(FOCP)와 같은 다양한 교육 및 자격증 프로그램 제공
 - 플랫폼에서 다양한 서비스를 제공(FinOps Certified Platform, FinOps Certified Service Provider program..)
 
-##
+## Mission of the FinOps Foundation
+
+- **"그들이 어디에 있건 클라우드의 가치를 매니징(재정적?)하는 개인의 발전을 돕자!"**
+- 
