@@ -1,11 +1,18 @@
 # FinOps Docs 정리
 
 - Overview
+- About the FinOps Foundation
+- What is FinOps?
 
 
-## About the FinOps Foundation
+# Overview
 
-- "The Linux Foundation"(CNCP) 프로젝트
+- FinOps Certified Practitioner(FOCP) 자격증을 준비하며, finops.org 사이트에 게시된 내용을 정리
+
+
+# About the FinOps Foundation
+
+- "The Linux Foundation"(LF) 프로젝트
 - 모범사례, 교육, 기준을 통해, 클라우드 환경의 재정적인 부분에 기여
 - 커뮤니티는 12K 규모, 3.5K의 회사가 참여
 - FinOps Certified Practitioner(FOCP)와 같은 다양한 교육 및 자격증 프로그램 제공
@@ -24,6 +31,9 @@
 - Govering Board + Technical Advisory Council + Practitioner Community
   - 쉽게 "마케팅 + 전문가 + 사용자" 로 구성
 
-## FAQs
+### FAQs
 
-### Why are we a part of the Linux Foundation?
+- 이 부분은 휘리릭 읽어보시면 좋을듯
+
+
+# What is FinOps?
