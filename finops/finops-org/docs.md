@@ -19,3 +19,11 @@
   - **Inspiring Growth**: 수준에 상관없이 커리어와 스킬 강화!
   - **Empowering Best Practices**: FinOps practice와 함께 정확히!
 
+## How is the FinOps Foundation structured?
+
+- Govering Board + Technical Advisory Council + Practitioner Community
+  - 쉽게 "마케팅 + 전문가 + 사용자" 로 구성
+
+## FAQs
+
+### Why are we a part of the Linux Foundation?
