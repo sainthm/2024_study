@@ -13,5 +13,9 @@
 
 ## Mission of the FinOps Foundation
 
-- **"그들이 어디에 있건 클라우드의 가치를 매니징(재정적?)하는 개인의 발전을 돕자!"**
-- 
+- **"(그들이 어디에 있건) 클라우드의 가치를 매니징하는 개인의 발전을 돕자!"**
+- Cloud financial management를 하는 사람을 돕자!
+  - **Creating Connections**: 끈끈하게!
+  - **Inspiring Growth**: 수준에 상관없이 커리어와 스킬 강화!
+  - **Empowering Best Practices**: FinOps practice와 함께 정확히!
+
