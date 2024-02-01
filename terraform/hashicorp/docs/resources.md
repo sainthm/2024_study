@@ -9,6 +9,7 @@
 ## Resource blocks
 
 - 리소스 블럭을 통해, 인프라스트럭처의 오브젝트를 생성
+  - 쉽게 인프라 생성한다고 보자!
 
 ### Resource syntax
 
