@@ -54,3 +54,7 @@
 
 ## FinOps Framework: Bringing Accountability to Cloud Spend
 
+![finops-framework-overview-202312-0](https://github.com/sainthm/2024_study/assets/54525036/2a81e3ad-73ce-4f4d-b22d-eb0f23b806d1)
+
+- 불리는 이름에 상관없이 FinOps는 클라우드의 다양한 지출 모델에 대해, 재정적 책임에 대한 관행
+- 엔지니어링 팀과 재무팀 간에 속도, 비용, 품질에 대한 절충
