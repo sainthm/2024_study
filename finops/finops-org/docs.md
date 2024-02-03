@@ -38,6 +38,19 @@
 
 # What is FinOps?
 
-> FinOps는 협력(엔지니어, 재무, 비즈니스팀)을 통해, 클라우드의 비즈니스 가치를 최대화하기 위한 운영 프레임워크 + 문화적 노력
+> FinOps는 협력(엔지니어, 재무, 비즈니스팀)을 통해, 클라우드의 비즈니스 가치를 최대화하기 위한 운영 프레임워크 + 문화적 관행
 
+- **FinOps**의 핵심은 문화적 관행(cultural practice)
+  - 팀들이 클라우드 비용을 관리 및 모두가 오너십을 갖는 것
+  - 중앙의 best practice 그룹이 관리
+  - FinOps = Finance + DevOps → 비즈니스와 엔지니어링 팀의 협업 강조
+  - 아래와 같이 불리기도함
+    - Cloud Financial Management
+    - Cloud Financial Engineering
+    - Cloud Cost Management
+    - Cloud Optimization
+    - Cloud Financial Optimization
+  - Cloud Financial Operations 은 선호되지 않는 표현(약간 결이 다름)
+
+## FinOps Framework: Bringing Accountability to Cloud Spend
 
