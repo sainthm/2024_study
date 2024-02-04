@@ -90,5 +90,13 @@
 
 ## FinOps Principles
 
+![finops-principles-image_overview-text](https://github.com/sainthm/2024_study/assets/54525036/8aee8a1e-6a3b-4df3-903a-565d2a988588)
+
 - 여섯 가지 FinOps 원칙 존재
+  - Teams need to collaborate
+  - Decisions are driven by business value of cloud
+  - Everyone takes ownership for their cloud usage
+  - FinOps data should be accessible and timely
+  - A centralized team drives FinOps
+  - Take advantage of the variable cost model of the cloud
 
