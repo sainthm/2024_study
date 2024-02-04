@@ -67,6 +67,8 @@
 
 ## Where to start learning FinOps
 
+- Youtube: FinOps Foundation
+
 
 
 ## FinOps Maturity Model
