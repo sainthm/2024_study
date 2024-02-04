@@ -4,11 +4,14 @@
 - About the FinOps Foundation
 - What is FinOps?
 
+<br>
 
-# Overview
+## Overview
 
 - FinOps Certified Practitioner(FOCP) 자격증을 준비하며, finops.org 사이트에 게시된 내용을 정리
 
+
+<br>
 
 # About the FinOps Foundation
 
@@ -21,7 +24,7 @@
 ## Mission of the FinOps Foundation
 
 - **"(그들이 어디에 있건) 클라우드의 가치를 매니징하는 개인의 발전을 돕자!"**
-- Cloud financial management를 하는 사람을 돕자!
+- Cloud financial management 하는 사람을 돕자!
   - **Creating Connections**: 끈끈하게!
   - **Inspiring Growth**: 수준에 상관없이 커리어와 스킬 강화!
   - **Empowering Best Practices**: FinOps practice와 함께 정확히!
@@ -35,6 +38,8 @@
 
 - 이 부분은 휘리릭 읽어보시면 좋을듯
 
+
+<br>
 
 # What is FinOps?
 
@@ -52,6 +57,8 @@
     - Cloud Financial Optimization
   - Cloud Financial Operations 은 선호되지 않는 표현(약간 결이 다름)
 
+<br>
+
 ## FinOps Framework: Bringing Accountability to Cloud Spend
 
 ![finops-framework-overview-202312-0](https://github.com/sainthm/2024_study/assets/54525036/2a81e3ad-73ce-4f4d-b22d-eb0f23b806d1)
@@ -65,10 +72,12 @@
   - 결국 이러한 결정이 왜 일어나는지 알고 올바르게 진행하게 함
 
 
+<br>
+
 ## Where to start learning FinOps
 
 - Youtube: FinOps Foundation
-- 등등
+- 등등 자료 존재
 
 
 ## FinOps Maturity Model
@@ -80,7 +89,7 @@
 - "**Run**" 단계
   - 선행적으로 비용을 다룸
   - 아키텍처 디자인 선택 및 엔지니어링 프로세스 이전
-- "Crawl", "Walk", "Run" 단계 존재
+- "**Crawl**", "**Walk**", "**Run**" 단계 존재
 
 
 ## Core Stakeholders of Cloud Financial Management
@@ -89,8 +98,6 @@
 - 다양한 직급 및 직무의 구성원이 FinOps의 각기 다른 역할을 담당 가능
 
 ## FinOps Principles
-
-![finops-principles-image_overview-text](https://github.com/sainthm/2024_study/assets/54525036/8aee8a1e-6a3b-4df3-903a-565d2a988588)
 
 - 여섯 가지 FinOps 원칙 존재
   - Teams need to collaborate
