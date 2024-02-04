@@ -85,8 +85,10 @@
 
 ## Core Stakeholders of Cloud Financial Management
 
-
+- FinOps는 한 사람이나 팀이 수행하는 것이 아님! → 관련 부서의 협력을 통해 진행
+- 다양한 직급 및 직무의 구성원이 FinOps의 각기 다른 역할을 담당 가능
 
 ## FinOps Principles
 
+- 여섯 가지 FinOps 원칙 존재
 
