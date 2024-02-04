@@ -107,3 +107,5 @@
   - A centralized team drives FinOps
   - Take advantage of the variable cost model of the cloud
 
+
+
