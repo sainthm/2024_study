@@ -68,13 +68,24 @@
 ## Where to start learning FinOps
 
 - Youtube: FinOps Foundation
-
+- 등등
 
 
 ## FinOps Maturity Model
 
+- FinOps는 반복적 → 반복을 통해 발전
+- "**Crwal**" 단계
+  - 반응성이 뛰어남
+  - 문제가 발생한 후, 해결하는데 중점
+- "**Run**" 단계
+  - 선행적으로 비용을 다룸
+  - 아키텍처 디자인 선택 및 엔지니어링 프로세스 이전
+- "Crawl", "Walk", "Run" 단계 존재
+
 
 ## Core Stakeholders of Cloud Financial Management
+
+
 
 ## FinOps Principles
 
