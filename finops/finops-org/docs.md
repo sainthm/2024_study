@@ -72,5 +72,8 @@
 ## FinOps Maturity Model
 
 
+## Core Stakeholders of Cloud Financial Management
+
+## FinOps Principles
 
 
