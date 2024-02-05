@@ -107,5 +107,10 @@
   - A centralized team drives FinOps
   - Take advantage of the variable cost model of the cloud
 
+<br>
 
+# Phase 정리 필요 (Inform, ~, ~)
 
+<br>
+
+# Persona 정리 필요 (ex. CEO)
