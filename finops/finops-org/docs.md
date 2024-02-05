@@ -114,3 +114,14 @@
 <br>
 
 # Persona 정리 필요 (ex. CEO)
+
+<br>
+
+# Stage 별 정리 필요 (ex. Stage 1, ~, ~)
+
+### Stage 1
+
+- Do your **Research**
+- Create a **Plan**
+
+<br>
