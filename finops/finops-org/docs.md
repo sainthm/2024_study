@@ -77,6 +77,7 @@
 ## Where to start learning FinOps
 
 - Youtube: FinOps Foundation
+- **FinOps book** 내용은 정리가 필요해보임
 - 등등 자료 존재
 
 
