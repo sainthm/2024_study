@@ -126,3 +126,11 @@
 - Create a **Plan**
 
 <br>
+
+# FinOps Landscape
+
+- Categories
+- Certifications
+- Cloud Providers
+- Compliances
+- 등등
