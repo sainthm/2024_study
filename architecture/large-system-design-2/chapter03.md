@@ -208,6 +208,46 @@ locs: JSON으로 인코딩한 (위도, 경도, 시각) 순서쌍 배열
 ```
 
 
+### 경로 안내 서비스
+
+> A 에서 B 지점으로 가는 합리적으로 빠른 경로를 찾아주는 역할 담당
+> 
+- 결과를 얻는 데 드는 시간 지연은 어느 정도 감내
+- 계산된 경로는 최단 시간 경로일 필요는 없으나 정확도는 보장되어야함
+- 경로 재탐색, 교통 상황 변화는 고려 X
+    - 상세설계의 적응형 ETA(adaptive ETA)를 통해 해결 가능
+
+```bash
+# API 요청 예시
+GET /v1/nav?origin=1355+market+street,SF&destination=Disneyland
+
+# 경로 안내 결과값 예시
+{
+  'distance'
+  'duration'
+  'end_location'
+  'html_instructions'
+  'policyline'
+  'start_location'
+  'geocoded_waypoints': [
+  {
+    "geocoder_status"
+    "partial_match"
+    "place_id"
+    "types"
+  },
+  {
+    "geocoder_status"
+    "partial_match"
+    "place_id"
+    "types"
+  }
+  ],
+  'travel_mode': 'DRIVING'
+}
+```
+
+
 
 
 
