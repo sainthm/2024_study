@@ -447,8 +447,56 @@ https://cdn.map-provieder.com/tiles/9q9hvu.png
         - 레스터 방식 이미지(rasterized image)를 사용하면클라이언트가 확대 수준을 높이는 순간에 이미지가 늘어지고(stretch) 픽셀이 도드라져 보이는 문제가 있음 → 시각 효과 측면에서 상당히 거슬릴 수 있음
         - 벡터화된 이미지를 사용하면 클라이언트는 각 요소 크기를 적절하게 조정할 수 있음
 
-### 경로 안내 서비스
+## 경로 안내 서비스
 
+- 아키텍처
+
+### 지오코딩 서비스
+
+- 주소를 위도와 경도 쌍으로 바꿔주는 서비스 필요
+- 주소의 표현 방식은 다양할 수 있다는 점을 고려해야함
+    - 장소 이름으로 나타낸 주소도 있을 수 있고 지번 형태로 나타낸 주소도 있을 수 있음
+- 경로 안내 서비스는 이 서비스를 호출하여 출발지와 목적지 주소를 위도/경도 쌍으로 변환한 뒤 추후 다른 서비스 호출에 이용
+- 구글 지오코딩 API 요청/응답 예시
+
+```bash
+# 요청
+https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA
+
+# JSON 응답
+{
+  "results" : [
+		"formatted_address"
+		"geometry" : {
+			"location" : {
+				"lat" :
+				"lng" :
+			},
+			"location_type" :
+			"viewport" : {
+				"northeast" : {
+					"lat" :
+					"lng" :
+				},
+				"southwest" : {
+					"lat" :
+					"lng" :
+				}
+			},
+			"place_id" :
+			"plus_code" : {
+					"compound_code" :
+					"global_code" :
+				},
+				"types" : [ "street_address" ]
+			}
+		}
+	],
+	"status" : "OK"
+}
+```
+
+### 경로 계획 서비스
 
 
 
