@@ -271,7 +271,15 @@ GET /v1/nav?origin=1355+market+street,SF&destination=Disneyland
         - 사용자에게 가까운 POP(Point of Presence) 서버에서 파일을 서비스
 
 
+### 데이터 사용량
 
+- 클라이언트 측 캐시 고려하지 않은 계산법
+- 사용자는 30km/h 속도로 이동중
+- 한 이미지가 200m x 200m 영역을 표현하도록 확대한 상태
+- 이미지 하나는 256 x 256 픽셀 → 평균 이미지 크기 100KB
+- 1km x 1km 영역 표현에 25 장의 이미지 필요
+
+$시간당 데이터 소비량 = 25 * 100KB * 30 = 75MB/hour  >> (1.25MB/min)$
 
 
 
