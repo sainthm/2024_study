@@ -187,7 +187,7 @@
 
 ## 1장 요약:
 
-![1](https://github.com/sainthm/2024_study/assets/54525036/71899722-0352-4fec-b546-926cb63d55e5)
+![1장요약](https://github.com/sainthm/2024_study/assets/54525036/485406a3-d5b7-4067-a9aa-4d6aa04a3046)
 
 
 ## 참고문헌:
