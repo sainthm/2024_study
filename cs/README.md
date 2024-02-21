@@ -3,6 +3,7 @@
 ## Chipset
 
 - chipset 관련 설명 작성(ARM vs x86)
+- CISC vs RISC
 
 ## Computer structure + operating system for studying alone
 
