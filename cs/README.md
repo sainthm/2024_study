@@ -19,3 +19,7 @@
 - network-basic
 - start: 2024.01.21
 - ongoing
+
+## Study
+
+- 궁금한 사항들에 대한 GPT 정리 자료 모음
