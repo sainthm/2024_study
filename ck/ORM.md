@@ -28,6 +28,9 @@ ORM은 Object-Relational Mapping의 약자로, 객체와 관계형 데이터베�
 
 ## ORM 사용 예시 (Python의 SQLAlchemy를 기준으로)
 ```python
+# SQLAlchemy를 사용하여 간단한 ORM 기능 구현
+# 객체를 통해 데이터베이스 조작을 추상화
+
 from sqlalchemy import create_engine, Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
