@@ -1,6 +1,7 @@
 # Security Orchestration, Automation, and Response (SOAR)
 
-SOAR은 "Security Orchestration, Automation, and Response"의 약자로, 보안 조직이 보안 이벤트 및 악성 행위를 탐지하고 대응하는 과정을 자동화하고 조정하는 솔루션을 가리킵니다. 이는 보안 운영을 효율적으로 관리하고 보안 인프라를 향상시키는 데 도움이 됩니다.
+- SOAR는 **"Security Orchestration, Automation, and Response"**의 약자로, 보안 조직이 보안 이벤트 및 악성 행위를 탐지하고 대응하는 과정을 자동화하고 조정하는 솔루션을 가리킵니다.
+- 이는 보안 운영을 효율적으로 관리하고 보안 인프라를 향상시키는 데 도움이 됩니다.
 
 ## 기능
 
@@ -19,3 +20,4 @@ SOAR은 "Security Orchestration, Automation, and Response"의 약자로, 보안 
 ## 장점
 - 보안 운영 및 대응 프로세스를 효율화하여 조직의 보안 수준을 향상시킵니다.
 - 보안 팀이 더 많은 위협에 대응하고 더 빠르게 대응할 수 있도록 지원합니다.
+
