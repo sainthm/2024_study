@@ -29,7 +29,7 @@
 
 ## 2. PCI (Payment Card Industry)
 
-**PCI DSS (Payment Card Industry Data Security Standard)**는 카드 결제 보안 강화를 위해 만들어진 국제 표준입니다.
+**PCI DSS (Payment Card Industry Data Security Standard)** 는 카드 결제 보안 강화를 위해 만들어진 국제 표준입니다.
 
 ### 주요 내용:
 - **카드 결제 정보**를 안전하게 보호하기 위한 요구사항
